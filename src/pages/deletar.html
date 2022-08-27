@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,14 +18,16 @@
         </ul>
     </header>
 
-    <form>
+    <form id="buscar">
         
         <label for="cliente">Escolha o cliente que quer Deletar</label>
         
-        <select name="cliente" ></select>
+        <select name="cliente" >
+             <option value="">Clientes</option>
+        </select>
 
-        <button>Deletar</button>
+        <button type="submit">Deletar</button>
     </form>
-
+    <script type = "module" src="../js/deletar.js"></script>
 </body>
 </html>
