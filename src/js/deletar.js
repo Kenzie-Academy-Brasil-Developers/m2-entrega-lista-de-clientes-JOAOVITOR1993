@@ -29,7 +29,7 @@ class Deletar{
             const clienteId = select.value
             
             const retorno = await Api.deletarCliente(clienteId)
-            console.log(retorno)
+            window.location.assign("../../index.html")
         })  
     }
 
